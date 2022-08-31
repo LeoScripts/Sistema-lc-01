@@ -13,3 +13,4 @@ class TesteController extends Controller
         return (['Seja bem vindo ao LC 01']);
     }
 }
+
