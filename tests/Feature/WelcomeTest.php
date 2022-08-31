@@ -24,4 +24,10 @@ class WelcomeTest extends TestCase
         $response = $this->get('/');
         $response->assertNotFound();
     }
+
+    public function test_message_welcome()
+    {
+        $response = $this->get('/api');
+        $response->assertExactJson(['Seja bem vindo ao LC 01']);
+    }
 }
