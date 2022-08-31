@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\ProductRequest;
 
 
-class TesteController extends Controller
+class WelcomeController extends Controller
 {
     public function index()
     {
