@@ -17,6 +17,17 @@ class UserTest extends TestCase
     {
         $response = $this->get('/api/users');
         $response->assertOk();
+    }
 
+    public function test_store_user()
+    {
+        $user = [
+            'name' => fake()->name(),
+            'email' => fake()->safeEmail(),
+            'password' => '123456'
+        ];
+
+        $response = $this->post('/api/users/create', $user);
+        $response->assertExactJson(['Usuario cadastrado!']);
     }
 }
