@@ -18,4 +18,10 @@ class WelcomeTest extends TestCase
         $response = $this->get('/api');
         $response->assertStatus(200);
     }
+
+    public function test_not_rendered_welcome()
+    {
+        $response = $this->get('/');
+        $response->assertNotFound();
+    }
 }
