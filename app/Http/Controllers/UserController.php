@@ -30,7 +30,7 @@ class UserController extends Controller
         $data = $request->all();
         $data['password'] = bcrypt($request->password);
         User::create($data);
-        return (['Usuario cadastrado!']);
+        return (['message' => 'Usuario cadastrado!']);
     }
 
     /**
@@ -75,6 +75,6 @@ class UserController extends Controller
     {
         $user = User::find($id);
         $user->delete();
-        return (['message' => 'Usuario excluido']);
+        return (['message' => 'Usuario excluido!']);
     }
 }

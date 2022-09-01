@@ -28,22 +28,28 @@ class UserTest extends TestCase
         ];
 
         $response = $this->post('/api/users/create', $user);
-        $response->assertExactJson(['Usuario cadastrado!']);
+        $response->assertExactJson(['message' => 'Usuario cadastrado!']);
     }
 
     public function test_show_user()
     {
         $response = $this->get('api/users/2');
-        $response->assertJsonCount(6);
+        $response->assertJsonCount(7);
     }
 
     public function test_update_user()
     {
         $user = $this->get('api/users/2');
-        $user->assertJsonCount(6);
+        $user->assertJsonCount(7);
 
         $response = $this->put('api/users/2/update', [
             'name' => 'ana test'
         ]);
+    }
+
+    public function test_delete_user()
+    {
+        $response = $this->delete('api/users/19/delete');
+        $response->assertExactJson(['message' => 'Usuario excluido!']);
     }
 }

@@ -1,64 +1,115 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center" id="top"> 
+  <!-- <img src="./.github/app.gif" alt="Sistema Lc 01" /> -->
+
+  &#xa0;
+
+  <!-- <a href="https://sistemalc01.netlify.app">Demo</a> -->
+</div>
+
+<h1 align="center">Sistema Lc 01</h1>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/LeoScripts/sistema-lc-01?color=56BEB8">
+
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/LeoScripts/sistema-lc-01?color=56BEB8">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/LeoScripts/sistema-lc-01?color=56BEB8">
+
+  <img alt="License" src="https://img.shields.io/github/license/LeoScripts/sistema-lc-01?color=56BEB8">
+
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/LeoScripts/sistema-lc-01?color=56BEB8" /> -->
+
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/LeoScripts/sistema-lc-01?color=56BEB8" /> -->
+
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/LeoScripts/sistema-lc-01?color=56BEB8" /> -->
 </p>
 
-## About Laravel
+<!-- Status -->
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<!-- <h4 align="center"> 
+	🚧  Sistema Lc 01 🚀 Under construction...  🚧
+</h4> 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<hr> -->
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/LeoScripts" target="_blank">Author</a>
+</p>
 
-## Learning Laravel
+<br>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## :dart: About ##
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+ Api <a href="https://github.com/LeoScripts" target="_blank">Leandro Cavalcante</a> boilerplate
 
-## Laravel Sponsors
+## :sparkles: Features ##
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- [X] PHP using Laravel 9
+- [X] unit tests
+<!-- - [X] Authentication -->
+- [X] Use Mysql 
+<!-- - [X] Use Docker -->
+- [X] The CRUD must contain the 
+    - [X] Insert + unit test, 
+    - [X] Update + unit test, 
+    - [X] softDelete + unit test
+    - [X] Read +  unit test
+- [X] Stored in the github repository
 
-### Premium Partners
+## :rocket: Technologies ##
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+The following tools were used in this project:
 
-## Contributing
+- [Php](https://)
+- [Composer](https://)
+- [Laravel](https://)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## :white_check_mark: Requirements ##
 
-## Code of Conduct
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [PHP](https://) and [Composer](http://) installed.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## :checkered_flag: Starting ##
 
-## Security Vulnerabilities
+```bash
+# Clone this project
+$ git clone https://github.com/LeoScripts/sistema-lc-01
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# Access
+$ cd sistema-lc-01
 
-## License
+# modify file .env.example to .env and insert to credentials with database name in environments
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# execute database docker
+$ make up
+
+# Install dependencies
+$ composer install
+
+# execute migrations
+$ php artisan migrate
+
+# Run the project
+$ php artisan serve
+
+# The server will initialize in the <http://localhost:8000>
+
+#run test
+$ php artisan test
+```
+
+## :memo: License ##
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+
+
+Made by <a href="https://github.com/LeoScripts" target="_blank">Leandro Cavalcante</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
