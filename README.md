@@ -52,9 +52,7 @@
 
 - [X] PHP using Laravel 9
 - [X] unit tests
-<!-- - [X] Authentication -->
 - [X] Use Mysql 
-<!-- - [X] Use Docker -->
 - [X] The CRUD must contain the 
     - [X] Insert + unit test, 
     - [X] Update + unit test, 
