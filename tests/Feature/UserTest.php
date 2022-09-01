@@ -30,4 +30,10 @@ class UserTest extends TestCase
         $response = $this->post('/api/users/create', $user);
         $response->assertExactJson(['Usuario cadastrado!']);
     }
+
+    public function test_show_user()
+    {
+        $response = $this->get('api/users/2');
+        $response->assertJsonCount(6);
+    }
 }
