@@ -45,17 +45,6 @@ class UserController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -64,7 +53,16 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $data = $request->all();
+        $user = User::find($id);
+        if(!$user)
+            return (['message' => 'Usuario não cadastrado']);
+
+        if($request->password)
+            $data['password'] = bcrypt($request->password);
+
+        $user->update($data);
+        return (['message' => 'Usuario atualizado!']);
     }
 
     /**
@@ -75,6 +73,6 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        //
+
     }
 }
