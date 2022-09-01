@@ -25,6 +25,7 @@ Route::get('/', [WelcomeController::class, 'index']);
 
 Route::get('/users/{id}', [UserController::class, 'show']);
 Route::put('/users/{id}/update', [UserController::class, 'update']);
+Route::delete('/users/{id}/delete', [UserController::class, 'destroy']);
 Route::get('/users', [UserController::class, 'index']);
 Route::post('/users/create', [UserController::class, 'store']);
 
