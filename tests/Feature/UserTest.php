@@ -36,4 +36,14 @@ class UserTest extends TestCase
         $response = $this->get('api/users/2');
         $response->assertJsonCount(6);
     }
+
+    public function test_update_user()
+    {
+        $user = $this->get('api/users/2');
+        $user->assertJsonCount(6);
+
+        $response = $this->put('api/users/2/update', [
+            'name' => 'ana test'
+        ]);
+    }
 }
