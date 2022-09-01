@@ -8,6 +8,7 @@
 
 <h1 align="center">Sistema Lc 01</h1>
 
+
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/LeoScripts/sistema-lc-01?color=56BEB8">
 
@@ -16,6 +17,8 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/LeoScripts/sistema-lc-01?color=56BEB8">
 
   <img alt="License" src="https://img.shields.io/github/license/LeoScripts/sistema-lc-01?color=56BEB8">
+  
+  <img alt="License" src="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=IPDA-VG&color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/LeoScripts/sistema-lc-01?color=56BEB8" /> -->
 
